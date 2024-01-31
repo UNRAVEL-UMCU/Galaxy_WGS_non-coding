@@ -5,7 +5,6 @@ This study aims to identify non-coding regulatory variantsin the WGS data, by us
 - [Approach](#Approach)
 - [Requirements](#Requirements)
 - [Galaxy analysis](#Galaxy_analysis)
-- [Example results](#Example_results)
 - [Acknowledgement](#Acknowledgement)
 ## Approach
 ![Flowchart PPARA](https://github.com/UNRAVEL-UMCU/Galaxy_WGS_non-coding/assets/127952067/9c614e8d-3dd0-4adf-99fc-9bb138eaf27c)
@@ -24,11 +23,6 @@ The following steps are performed in the Galaxy to detect variants in specified 
 - **SNPeff_eff:** For annotation of the VCF_BEDintersect output SNPeff_eff is run for every BED filtered VCF.
 - **Probability score:** To predict if a variant will impact the regulatory function of a regulatory element [RegulomeDB](https://regulomedb.org/regulome-search/) is used.
 - **Visualisation:** For visualisation [Rstudio](https://posit.co/download/rstudio-desktop/) is used. The scripts are available in the directory 'Scripts'.
-
-## Example_results
-Two different visualisations are created; one for acetylated regions and one for PPRE variants
-![Acetylated regions](https://github.com/UNRAVEL-UMCU/Galaxy_WGS_non-coding/assets/127952067/76684a6f-89d0-43ad-871a-e533be92cfe7)
-![PPRE variants](https://github.com/UNRAVEL-UMCU/Galaxy_WGS_non-coding/assets/127952067/eeef42dd-8f89-41bd-b653-246925dad5a0)
 
 
 ## Acknowledgement
