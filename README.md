@@ -22,7 +22,7 @@ The following steps are performed in the Galaxy to detect variants in specified 
 - **VCF_BEDintersect:** The VCF file as selected as input and a BED file is selected. For every BED file a seperate VCF_BEDintersect needs to be run. The output are variants within the BED formatted region.
 - **SNPeff_eff:** For annotation of the VCF_BEDintersect output SNPeff_eff is run for every BED filtered VCF.
 - **Probability score:** To predict if a variant will impact the regulatory function of a regulatory element [RegulomeDB](https://regulomedb.org/regulome-search/) is used.
-- **Visualisation:** For visualisation [Rstudio](https://posit.co/download/rstudio-desktop/) is used. The scripts are available in the directory 'Scripts'.
+- **Visualisation:** For visualisation [Rstudio](https://posit.co/download/rstudio-desktop/) is used. The scripts are available in [Scripts](./Scripts).
 
 
 ## Acknowledgement
