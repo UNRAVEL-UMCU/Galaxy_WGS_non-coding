@@ -1,5 +1,5 @@
 # Galaxy_WGS_non-coding
-This study aims to identify non-coding regulatory variantsin the WGS data, by using the Unravel Galaxy. This GitHub will describe the non-coding WGS galaxy analysis, in addition of this analysis further imaging analysis is performed.
+This study aims to identify non-coding regulatory variantsin the WGS data, by using the Unravel Galaxy. This GitHub will describe the non-coding WGS galaxy analysis, in addition of this analysis further imaging analysis is performed. For the additional research, look at the [Additional_research](./additional
 
 ## Table of Contents
 - [Approach](#Approach)
